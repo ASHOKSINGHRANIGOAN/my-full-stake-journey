@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Practice code - Forms </h1>
+     <strong><h3> 1: Simple form with input elements</h3></strong>
+      <form action=".//Thank You .Html" target="_blank">
+        <label for="user Name"> User Name  </label><br>
+            <input type="text" name="User Name"> <br><br>
+        <label for="email_id"> Email id </label><br>
+            <input type="email" name="email_id"> <br><br>
+        <label for="Gender"> Gender </label><br>
+            <input type="radio" name=" Gender" value="Female"> Female <br>
+            <input type="radio" name="Gender" value="Male"> Male <br>
+            <input type="radio" name="Gender" value="Not parfer To Say"> Not Parfer to Say <br>   <br>
+        <label for="Skills"> Skills </label> <br>
+            <input type="checkbox" name="skill1" id=" Html">HTML <br>
+            <input type="checkbox" name="skill2" id="Css"> CSS <br>
+            <input type="checkbox" name="Skill3" id="Java Script"> JAVA SCRIPT <br><br>
+            <input type="Submit" value="Submit">
+      </form>
+      <strong><h3> 2: Validate Form</h3></strong>
+       <form>
+        <label for="User Name"> User Name </label> <br>
+             <input type="text" name="User Name" required placeholder="Enter Your Name"><br><br>
+        <label for="Email_id"> Email Id </label><br>
+             <input type="email" name="Email_id" required placeholder="Exampel@xyz.com"> <br><br>
+        <label for="password"> password</label> <br>
+             <input type="text" name="password" required placeholder="Enter Your password"  ><br><br>
+        <button onclick="alert ('Server validating')">Validate</button>
+       </form>
+     <strong> <h3>3: Textarea</h3></strong>
+       <strong><h4> Textarea </h4></strong>
+          <p> About You </p>
+          <form action=".//Thank You .Html"><br>
+            <textarea name="Message" rows="5"></textarea><br>
+            <input type="submit">
+          </form>
+     <strong> <h3>4: Survey Form</h3></strong>
+     <form action=".//Thank You .Html" target="_blank">
+        <label for="user Name"> Name  </label><br>
+            <input type="text" name="User Name" required placeholder="Enter Your Name"> <br><br>
+        <label for="email_id"> Email id </label><br>
+            <input type="email" name="email_id" required placeholder="Exampel@xyz.com"> <br><br>
+        <label for="Roll Number"> Roll No </label> <br>
+            <input type="number" name="Roll" placeholder="Roll" min="0" max="100" required><br><br>
+        <label for="Drop Down"> How Do You Rate Our Courses ?</label>
+        <select name="Drop Down" id="Drop Down">
+            <option value="Excellent"> Excellent</option>
+            <option value="Good"> Good</option>
+            <option value="Fair">Fair</option>
+            <option value="Poor"> Poor</option>
+        </select><br><br>
+        <label for="Topic"> Your Favorite Topic In HTML </label> <br>
+            <input type="checkbox" name="Topic 1" id="structural elements"> structural elements<br>
+            <input type="checkbox" name="Topic 2" id="Links And List"> Links And List <br>
+            <input type="checkbox" name="Topic 3" id="Html Media"> Html Media<br>
+            <input type="checkbox" name="Topic 4" id=" Html Table"> Html Table <br>
+            <input type="checkbox" name="Topic 5" id=" Grouping Elements"> Grouping Elements<br>
+            <input type="checkbox" name="Topic 6" id="Froms"> Froms<br>
+            <label for="Choice"> Do you like the HTML Course</label><br>
+            <input type="radio" name=" Yes" value="Yes"> Yes 
+            <input type="radio" name="No" value="No"> No 
+            <p>Few Words About Course</p>
+            <textarea name="Message" rows="5"></textarea><br>
+            <input type="submit">
+      </form>
+
+</body>
+</html>
