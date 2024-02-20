@@ -1,0 +1,28 @@
+h3{
+    border-style: dashed;
+    text-align: center;
+}
+.ram{
+    border-color: blue;
+    border-style: ridge;
+    border-top-left-radius:20px ;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+.sita{
+    border-color: rgb(214, 56, 109);
+    border-style:double;
+    border-left-style:solid ;
+    border-bottom-style:dashed;
+    border-right-style:dotted;
+    text-align: center;
+}
+.laxman{
+    text-align: center;
+    border-bottom-style:dotted ;
+    border-top-style:dashed ;
+    border-left-style:solid ;
+    border-right-style:solid ;
+    border-bottom-width:5px ;
+    border-left-width: 5px; 
+}
