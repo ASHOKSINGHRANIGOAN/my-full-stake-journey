@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    background-color: burlywood;
+}
+.jaipur{
+    background: fixed url(jaipur.jpg) no-repeat;
+    background-size: cover;
+}
+.Repeat{ 
+    background: fixed url(jaipur.jpg);
+}
+.NoRepeat{
+    background: scroll url(.//jaipur.jpg) no-repeat;
+    background-size: 800px;
+}
