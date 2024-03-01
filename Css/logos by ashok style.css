@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(237, 205, 79);
+    color: beige;
+}
+.Border{
+    border-style: double;
+    border-color: #fff;
+    border-width: 10px;
+}
+.insta{
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,
+    #fd5949 45%, #d6249f 60%, #285aeb 90%);;
+    border-radius: 35px;
+    display:grid;
+    place-items: center;
+    margin-left: 670px;
+}
+.innerbox{
+    width: 120px;
+    height: 120px;
+    border: white solid 10px ;
+    border-radius: 32px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.innerbox::before{
+    content: "";
+    width: 45px;
+    height: 45px;
+    border: #fff 10px solid;
+    border-radius: 50%;
+    position: absolute;
+}
+.innerbox::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: #fff 2px solid;
+    border-radius: 50%;
+    background-color:#fff;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.Facebook{
+    width: 150px;
+    height: 150px;
+    background-color: #285aeb;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 670px;
+}
+.logo{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 144px;
+    margin-top: 147px;
+}
+.youtube{
+     width: 155px;
+     height: 120px;
+     background-color: red;
+     border-radius: 37px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 670px;
+}
+.Triangle{
+border-top: 28px solid transparent;
+border-left: 50px solid white;
+border-bottom: 28px solid transparent;
+}
